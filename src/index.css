@@ -8,6 +8,10 @@
   max-width: 30rem;
   margin: 0 auto;
 }
+.header {
+  display: grid;
+  justify-content: center;
+}
 
 .hole {
   background: url("/hole.png") no-repeat center/contain;
@@ -15,4 +19,36 @@
 
 .mole {
   background-image: url("/mole.png");
+}
+.header .score-card {
+  border: solid black 3px;
+  padding: 1rem;
+  width: 300px;
+}
+h1 {
+  display: grid;
+  justify-content: center;
+} 
+/* #root {
+  max-width: 35rem;
+  text-align: center;
+}
+
+div {
+  dispay: block;
+} */
+
+.welcome {
+  display: grid;
+  justify-content: center;
+ 
+}
+.welcome p {
+   margin: 2px;
+}
+
+.restart {
+  display: grid;
+  justify-content: center;
+  padding: ;
 }
